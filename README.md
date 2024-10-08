@@ -1,4 +1,4 @@
-# Voice Assistant Project
+# Semester Project: Voice Assistant
 
 ## Overview
 
@@ -15,6 +15,17 @@ This is my personal semester project that implements a voice assistant using Pyt
 - **Weather Reports**: Provides current weather updates.
 - **Screenshots**: Takes screenshots of the desktop.
 
+## Libraries Used
+- `time`: For handling time-related tasks.
+- `pyttsx3`: A text-to-speech conversion library.
+- `speech_recognition`: For converting speech into text.
+- `decouple`: For managing environment variables.
+- `datetime`: For handling date and time.
+- `random`: For selecting random advice or jokes.
+- `default_opening_txt`: A module containing default opening texts.
+- `Functions.os_methods`: A module containing functions to open various applications.
+- `Functions.online_methods`: A module containing functions for online tasks such as fetching IP, searching, sending emails, etc.
+
 ## Requirements
 
 - Python 3.x
@@ -23,12 +34,4 @@ This is my personal semester project that implements a voice assistant using Pyt
   - `SpeechRecognition`
   - `python-decouple`
   - Additional libraries for online methods (refer to the Functions directory)
-
-## Installation
-
-To set up the project, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd voice-assistant
+  
